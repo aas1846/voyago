@@ -36,7 +36,6 @@ voyago/
 │   ├── Routes/      # AI, geocode, Google Places routes
 │   ├── controllers/ # Route logic + Ollama integration
 │   └── generated/   # Prisma client
-└── server-dotnet/   # .NET backend (experimental)
 ```
 
 ## Getting Started
@@ -53,7 +52,7 @@ voyago/
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/yourusername/voyago.git
+   git clone https://github.com/aas1846/voyago.git
    cd voyago
    ```
 
