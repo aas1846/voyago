@@ -1,0 +1,43 @@
+/* ScrollSnapDial.css */
+.dial-container {
+  width: 544px;
+  max-width: 544px;
+  overflow-x: hidden;
+  display: flex;
+  gap: 16px;
+  padding: 1rem 0;
+  position: relative;
+  user-select: none;
+  height: 64px;
+  align-items: center;
+  touch-action: none;
+}
+
+.dial-item {
+  flex: 0 0 60px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  line-height: 60px; /* vertical center text */
+  padding: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.highlight-box {
+  position: absolute;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: rgba(0, 123, 255, 0.1);
+  pointer-events: none;
+  z-index: 0;
+  transition: left 0.3s ease;
+  transform: translate(-50%, -50%);
+}

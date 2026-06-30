@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Claude Code context
+.claude
+
+# dotnet
+server-dotnet/bin
+server-dotnet/obj
+
+# Node
+node_modules

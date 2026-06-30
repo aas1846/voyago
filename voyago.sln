@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server-dotnet", "server-dotnet", "{10356BCD-8AD0-80F4-A67B-87DC80DBC047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagoApi", "server-dotnet\VoyagoApi.csproj", "{510B95E8-1509-0950-1893-D717AEF265BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{510B95E8-1509-0950-1893-D717AEF265BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510B95E8-1509-0950-1893-D717AEF265BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510B95E8-1509-0950-1893-D717AEF265BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510B95E8-1509-0950-1893-D717AEF265BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{510B95E8-1509-0950-1893-D717AEF265BB} = {10356BCD-8AD0-80F4-A67B-87DC80DBC047}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75BAF113-3A4D-400E-8E8E-A0623EDACB4E}
+	EndGlobalSection
+EndGlobal

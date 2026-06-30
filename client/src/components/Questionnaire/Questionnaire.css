@@ -1,0 +1,96 @@
+.questionnaire {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  gap: 40px;
+}
+
+/* Progress Dots */
+.progress-dots {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.progress-dot-group {
+  display: flex;
+  align-items: center;
+}
+
+.progress-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--border);
+  transition: all var(--transition);
+  flex-shrink: 0;
+}
+
+.progress-dot.active {
+  background: var(--primary);
+  box-shadow: 0 0 0 4px var(--accent-light);
+  transform: scale(1.15);
+}
+
+.progress-dot.completed {
+  background: var(--primary);
+}
+
+.progress-line {
+  width: 40px;
+  height: 2px;
+  background: var(--border);
+  transition: background var(--transition);
+}
+
+.progress-line.completed {
+  background: var(--primary);
+}
+
+/* Body */
+.questionnaire-body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Navigation */
+.questionnaire-nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.nav-btn {
+  min-width: 120px;
+}
+
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.generate-btn {
+  min-width: 220px;
+  padding: 14px 32px;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 600px) {
+  .questionnaire {
+    padding: 24px 16px;
+    gap: 28px;
+  }
+
+  .progress-line {
+    width: 24px;
+  }
+}
